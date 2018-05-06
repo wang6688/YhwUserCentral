@@ -1,0 +1,51 @@
+*{padding:0;margin:0;}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
+img,input{
+  border:none;
+  vertical-align:middle;
+}
+body{
+  font-family:"Microsoft YaHei";
+  text-align:center;
+  background:#fff;
+  color:#333;
+  font-size: 12px;
+}
+
+ul,ol{
+  list-style-type:none;
+}
+button{
+  border:none;
+  cursor:pointer;
+}
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+table{
+  word-break: break-all
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    text-align: left;
+}

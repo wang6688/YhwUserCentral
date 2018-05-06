@@ -1,0 +1,145 @@
+body{
+overflow-y:hidden
+}
+.navWrap{
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: #2971c3;
+}
+.nav {
+  height: 36px;
+  margin-left: 200px;
+}
+.nav li {
+  float: left;
+  width: 120px;
+  text-align: center;
+  height: 36px;
+}
+.nav li a {
+  color: #fff;
+  font-size: 20px;
+}
+.conWrap{
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.navList {
+  width: 150px;
+  float: left;
+  background: #eaedf1;
+  min-height: 400px;
+  margin-left: -150px;
+}
+.navList ul {
+  width: 150px;
+  padding-top: 30px;
+  text-align: left;
+}
+.navList ul>li span{
+  font-size: 14px;
+  color: #333;
+}
+.current {
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  padding: 7px 25px;
+  cursor: pointer;
+  background: #fff;
+}
+.navList ul li:hover{
+  background: #f7f9fa;
+}
+.normal {
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  padding: 7px 25px;
+  cursor: pointer;
+}
+.htmlWrap{
+  float: left;
+  width: 100%;
+  padding:0 0 0 40px;
+  box-sizing: border-box;
+}
+#contetWrap{
+	overflow-y:scroll
+}
+.clear::after{
+	content:"";
+	display:block;
+	clear:both
+}
+.rSuspend{
+  width: 44px;
+  height: 128px;
+  background: #33cde5;
+  position: fixed;
+  right:30px;
+  bottom:200px;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,.15);
+}
+.rSPic{
+  margin: 0px auto;
+}
+.rSPic img{
+  width: 30px;
+  margin: 6px 0
+}
+.rSPic span{
+  cursor: default;
+    display: inline-block;
+    width: 14px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 17px;
+}
+.rSusCon{
+  width: 260px;
+  height: 210px;
+  background: #fff;
+  position: fixed;
+  bottom:200px;
+  right:90px;
+  box-shadow: 0px 3px 12px 0 rgba(0,0,0,.15);
+  padding: 10px 20px;
+  display: none;
+}
+.rSusCon li{
+  width: 100%;
+  height: 60px;
+}
+.rSusCon li>img{
+  display: block;
+  float: left;
+  width: 40px;
+  margin-top: 10px;
+}
+.pWrap{
+  width: 200px;
+  float: left;
+  padding-left: 20px;
+  text-align: left;
+}
+.p1{
+  height: 35px;
+  line-height: 40px;
+  font-size: 16px;
+}
+.p2{
+  height: 25px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #33cde5
+}
+.p2 a{
+  height: 25px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #33cde5
+}
