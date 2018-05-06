@@ -1,9 +1,9 @@
-package com.demo.common;
+package com.yhw.common;
 
-import com.demo.blog.BlogController;
-import com.demo.common.model._MappingKit;
-import com.demo.index.IndexController;
-import com.demo.index.YhwController;
+import com.yhw.blog.BlogController;
+import com.yhw.common.model._MappingKit;
+import com.yhw.index.IndexController;
+import com.yhw.index.YhwController;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;

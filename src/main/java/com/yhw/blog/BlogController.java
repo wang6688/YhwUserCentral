@@ -1,8 +1,8 @@
-package com.demo.blog;
+package com.yhw.blog;
 
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
-import com.demo.common.model.Blog;
+import com.yhw.common.model.Blog;
 import com.jfinal.plugin.activerecord.Page;
 
 /**
